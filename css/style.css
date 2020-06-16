@@ -79,8 +79,9 @@ main {
 .multi-col-2 p {
     font-style: italic;
     line-height: 20px;
-    height: 320px;
+    height: 300px;
     overflow: hidden;
+    margin-bottom: 20px;
 }
 
 footer {
