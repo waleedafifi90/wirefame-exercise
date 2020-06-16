@@ -1,0 +1,90 @@
+header {
+    width: 100%;
+    background: #393e46;
+    height: 90px;
+    padding-top: 20px;
+}
+
+header div {
+    width: 960px;
+    margin: 0 auto;
+}
+
+header img {
+    float: left;
+}
+
+header nav {
+    float: left;
+}
+
+header div nav ul li {
+    display: inline-block;
+    padding: 30px 60px;
+
+}
+
+header a {
+    text-decoration: none;
+    color: #c2c2c2;
+}
+
+main {
+    width: 960px;
+    margin: 30px auto;
+}
+
+.multi-col-3 {
+    margin: 30px 0;
+    height: 375px;
+}
+.multi-col-3 div{
+    width: 300px; /* as @passatgt mentioned in the comment, for the older browsers fallback */
+    width: calc(900px / 3);
+    display: inline-block;
+    margin-right: 26px;
+}
+
+.multi-col-3 div:last-child {
+    margin-right: 0;
+}
+
+.multi-col-2 {
+    height: 400px;
+}
+
+.multi-col-2 img {
+    width: calc(940px / 2);
+    float: left;
+}
+.multi-col-2 div {
+    width: calc(940px / 2);
+    float: right;
+}
+
+.multi-col-2 div .call-to-action {
+    color: #ffffff;
+    background-color: #aacdbe;
+    border-radius: 10px;
+    padding: 14px 60px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.multi-col-2 h3 {
+    font-weight: 700;
+    line-height: 30px;
+}
+
+.multi-col-2 p {
+    font-style: italic;
+    line-height: 20px;
+    height: 320px;
+    overflow: hidden;
+}
+
+footer {
+    width: 100%;
+    height: 100px;
+    background: #222831;
+}
