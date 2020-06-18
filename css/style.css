@@ -64,12 +64,21 @@ main {
 
 .multi-col-2 div .call-to-action {
     color: #ffffff;
-    background-color: #aacdbe;
-    border-radius: 10px;
+    background-color: #000;
+    /* border-radius: 10px; */
     padding: 14px 60px;
     text-decoration: none;
     display: inline-block;
 }
+
+.multi-col-2 div .call-to-action:hover {
+    background-color: #393e46;
+    cursor: pointer;
+    -webkit-transition: background-color 0.35s ease-out;
+    -moz-transition: background-color 0.35s ease-out;
+    -o-transition: background-color 0.35s ease-out;
+    transition: background-color 0.35s ease-out;
+  }
 
 .multi-col-2 h3 {
     font-weight: 700;
@@ -80,8 +89,8 @@ main {
     font-style: italic;
     line-height: 20px;
     height: 300px;
-    overflow: hidden;
-    margin-bottom: 20px;
+    overflow: scroll;
+    margin-bottom: 19px;
 }
 
 footer {
